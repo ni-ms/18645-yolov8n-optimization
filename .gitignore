@@ -1,0 +1,49 @@
+# Code-only Git allowlist. New files stay ignored until explicitly allowed.
+# Keep local reports, exports, datasets, archives, experiments, build products,
+# caches, editor settings and credentials out of the repository.
+*
+
+# Project guidance and the shared progress record.
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/status.md
+!/resources/
+!/resources/README.md
+
+# Current code guide and baseline/variant identities.
+!/code/
+!/code/README.md
+!/code/configs/
+!/code/configs/research_baseline.json
+!/code/configs/variants.json
+
+# optimized is a symlink. Track it AND the exact source files in its target;
+# ignoring the entire backing workspace would leave a broken Git checkout.
+!/code/optimized
+!/code/.workspace/
+!/code/.workspace/diagnostics/
+!/code/.workspace/diagnostics/block_major_input_v1/
+!/code/.workspace/diagnostics/block_major_input_v1/README.md
+!/code/.workspace/diagnostics/block_major_input_v1/candidate.cpp
+!/code/.workspace/diagnostics/block_major_input_v1/candidate.h
+!/code/.workspace/diagnostics/block_major_input_v1/fixed_tiles.h
+!/code/.workspace/diagnostics/block_major_input_v1/tuned_tiles.h
+!/code/.workspace/diagnostics/block_major_input_v1/tail_tiles.h
+!/code/.workspace/diagnostics/block_major_input_v1/pack_tiles.h
+!/code/.workspace/diagnostics/block_major_input_v1/guard.cpp
+
+# Original public API, operator, generated tile inputs and validation helpers.
+!/code/reference/
+!/code/reference/README.md
+!/code/reference/include/
+!/code/reference/include/p2.h
+!/code/reference/src/
+!/code/reference/src/p2.cpp
+!/code/reference/src/vec8.h
+!/code/reference/src/tiles_generated.h
+!/code/reference/src/variant_meta_generated.h
+!/code/reference/src/variant_count_generated.h
+!/code/reference/src/dispatch_generated.inc
+!/code/reference/src/perf_counter.cpp
+!/code/reference/src/guard_pages.cpp

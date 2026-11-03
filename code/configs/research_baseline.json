@@ -1,0 +1,43 @@
+{
+  "state": "user_authorized_primary_experimental_working_baseline_promoted",
+  "local_date": "2026-10-31 America/Los_Angeles",
+  "user_request": "make the latest highest version the baseline and then improve it from there",
+  "scope": "Primary C256/S400/O256 reference for subsequent ECE experiments; no full35 production dispatch or detector adoption implied",
+  "source": "diagnostics/block_major_input_v1/candidate.cpp",
+  "source_sha256": "993a3f9209fa7476f4b08459bd569e6567f20f0dee2ccc4a08950f5161f307f6",
+  "source_manifest": "diagnostics/block_major_input_v1/manifest.json",
+  "library": "results/raw/block-major-input-v1-run-20261031T071830Z-3842696-c58af10f/build/libpanel5_candidate.so",
+  "sha256": "533ab30d7c4b445e807a8ff0a6a9ed283512cc332b19fc326b574accc8c621c1",
+  "variant_id": 1,
+  "variant_name": "nt_block_major",
+  "native_run": "block-major-input-v1-run-20261031T071830Z-3842696-c58af10f",
+  "peak_range": [
+    0.9118963678953305,
+    0.9137258003006247
+  ],
+  "verification": "archives/experiments/38_block_major_input_packing/block-major-input-v1-summary-export-20261031T072707Z/verification.json",
+  "reprofile": "archives/experiments/38_block_major_input_packing/candidate_reprofile/outcome.json",
+  "original_90_reference": {
+    "source": "diagnostics/stall_store_v1",
+    "sha256": "bd709f01c095dcdbab8bb42685f02139d1d419d0cbaeb23acdcfda839ef772fd",
+    "variant_id": 1,
+    "frozen": true
+  },
+  "all_existing_evidence_frozen": true,
+  "new_native_measurement": false,
+  "production_policy_changed": false,
+  "official_estimates_replaced": false,
+  "next_experiment_requirement": "Same-context compact baseline control plus exact533ab30d#1 and originalbd709f01#1 references. Generate target sources/constraints only on ECE; unchanged safety/numerics/timing protocol.",
+  "subsequent_verified_observations": [
+    {
+      "run": "block-major-driver-v1-run-20261031T165240Z-4026544-3a3ab9e0",
+      "peak_range": [
+        0.9103511192140256,
+        0.911717840742138
+      ],
+      "verification": "archives/experiments/40_block_major_driver/block-major-driver-v1-summary-export-20261031T170128Z/verification.json",
+      "candidate_driver_rejected": true,
+      "separate_frame_no_pooling": true
+    }
+  ]
+}
