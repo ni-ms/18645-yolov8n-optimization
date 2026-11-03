@@ -1503,6 +1503,11 @@ Both focused `p5_unroll_1` U4 loop instances have48FMAs,87instructions,16YMM,8in
 
 **Next action:** create or link the intended GitHub repository and push/merge when requested. The suggested remote name is `18645-yolov8n-optimization`; no remote or GitHub repository was created by this local-commit task. Continue to add future essential files explicitly to the allowlist; R1–R6 document/submission work remains separate.
 
+
+**GitHub publication update —3 November 2026, America/Los_Angeles — project-local authentication configured, initial commit pushed and remote identity verified.** Following the user's authorization, linked `origin` to [ni-ms/18645-yolov8n-optimization](https://github.com/ni-ms/18645-yolov8n-optimization), configured this repository's GitHub credential helper to select the saved `ni-ms` account explicitly and pushed `main` with `origin/main` tracking. The empty remote received the original `added files` commit `821244389c75b0c22eb434fe549418ffaf0f6413`; all27 committed paths still equal the allowlist and remote `main` matched that commit. GitHub's default branch is `main`. Authentication was verified as `ni-ms`; the existing college author/email and global active-account selection were preserved. No credential value was written to the repository or its configuration.
+
+**Result / evidence:** R4 version-control publication and Requirements3/5 provenance. [Initial push receipt](archives/project_support/docs/github_initial_push_20261103.json) records the original commit and observed remote match; [final publication verification](archives/project_support/docs/github_publication_verification_20261103.json) records the follow-up timeline commit and final remote/local comparison. Excluded evidence/data/exports/builds remain local, and kernel/report sources, frozen evidence, detailed completion/measurement records and scientific/adoption/readiness/submission states are unchanged. No force push, target execution or assembly work occurred; resources were not refreshed for this version-control-only update. **Next action:** use this repository's `main` for the requested collaboration; keep future additions within the allowlist. The earlier create/link/push next action is resolved. Report submission remains separate.
+
 ## What remains — in the order needed to finish the report
 
 ### Required document and submission work
